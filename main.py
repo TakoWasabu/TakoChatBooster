@@ -3,7 +3,7 @@ import json
 from time import sleep
 import random
 
-Token = "tokenhere"
+Token = input("token:")
 
 
 
@@ -26,8 +26,9 @@ with open("spam.txt", "r", encoding="utf-8_sig") as target:
     spam = target.read().split("\n")
 
 while True:
+    Random = random.randrange(3, 7, 2, 1, 3, 4, 5, 6)
     params = {
-        "content": random.choice(spam) +  " |" + " " + random.choice(bypass),
+        "content": random.choice(spam) +  " |" +  ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(Random)) +  "|",
         "tts": False
     }
     create_message = requests.post(
