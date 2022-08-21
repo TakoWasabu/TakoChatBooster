@@ -1,4 +1,4 @@
-# TakoChatBooster
+# Tako-Spam-Bot
 
 
 ## spam.txt を書き換えてください ハイ
