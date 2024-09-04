@@ -1,9 +1,9 @@
 # Tako-Spam-Bot
 
 
-## spam.txt を書き換えてください ハイ
-Replitでも使えます　ハイ
-好きにForkして進化とかしてください　ハイ
+## spam.txt を書き換えてください 
+Replitでも使えます　
+好きにForkして進化とかしてください
 
 ## English
 Please rewrite spam.txt 
